@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.category {
+  width: 25vmin;
+  height: 15vmin;
+  border: 1px solid black;
+  color: white;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.category:hover {
+  cursor: pointer;
+}
+.Holiday {
+  background-color: darkorange;
+}
+.Work {
+  background-color: blue;
+}
+.Errands {
+  background-color: green;
+}
+.Sick {
+  background-color: red;
+}

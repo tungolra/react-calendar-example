@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.calendar {
+  font-size: 3vmin;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.daynum {
+  height: 10vmin;
+  width: 20vmin;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 3px;
+  background-color: rgb(250, 105, 61);
+  padding: 7px;
+}
+.daynum > span {
+  display: block;
+  margin: 1vmin;
+}
+.weekday {
+  margin-bottom: 7px;
+}
